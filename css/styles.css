@@ -150,24 +150,41 @@ hr {
 }
 
 @media only screen and (max-width: 680px) {
+  .top-container {
+    height: 500px;
+  }
   .mainCloud {
-    width: 70%;
+    padding-top: 100px;
+    width: 80%;
     height: 30%;
   }
   .bottomCloud {
     left: 180px;
     top: 100px;
-    width: 15%;
+    width: 18%;
   }
   .topCloud {
+    padding-top: 50px;
     top: 300px;
     right: 150px;
-    width: 15%;
+    width: 18%;
   }
   h1 {
     font-size: 3rem;
   }
   h2 {
+    font-size: 1.5rem;
+  }
+  h3 {
     font-size: 1rem;
+  }
+  .profile {
+    width: 70%;
+  }
+  .skill-row {
+    width: 70%;
+  }
+  .contactMessage {
+    width: 70%;
   }
 }
