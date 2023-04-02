@@ -49,13 +49,20 @@ p {
   position: absolute;
   top: 40px;
   right: 300px;
+  width: 10%;
 }
 
 .bottomCloud {
   position: absolute;
   left: 250px;
   bottom: 300px;
+  width: 10%;
 }
+
+.mainCloud {
+  margin-top: 10px;
+}
+
 .pro {
   text-decoration: underline;
 }
@@ -140,4 +147,27 @@ hr {
   color: #eaf6f6;
   font-size: 0.75rem;
   padding: 20px auto;
+}
+
+@media only screen and (max-width: 680px) {
+  .mainCloud {
+    width: 70%;
+    height: 30%;
+  }
+  .bottomCloud {
+    left: 180px;
+    top: 100px;
+    width: 15%;
+  }
+  .topCloud {
+    top: 300px;
+    right: 150px;
+    width: 15%;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 1rem;
+  }
 }
